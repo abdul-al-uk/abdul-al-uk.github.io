@@ -1,14 +1,5 @@
 body {
-    background-color: rgb(255, 231, 234);
-}
-
-@font-face {
-    font-family: Coolvetica;
-    src: url(toolio/fonts/Coolvetica\ Rg.otf);
-}
-
-h1 {
-    font-family: Coolvetica;
+    background-color: rgba(173, 216, 230, 0.932);
 }
 
 .center {
