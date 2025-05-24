@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="../style.css">
+<script src="../scripts.js"></script>
+<html>
+
+    <head>
+        <title>Online Notepad</title>
+        <link rel="icon" href="../images/icon.png" type="image/png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div style="position: absolute; top: 10px; right: 10px; z-index: 10;">
+            <label for="dark">Dark Mode?:</label>
+            <input type="checkbox" id="dark" name="dark" onclick="darkmode()">
+        </div>
+
+        <center><h1>Online Notepad</h1></center>
+        <textarea name="notepad" id="notepad" cols="100" rows="200"
+            style="background-color: rgb(255, 255, 255); font-family: 'Droid Sans Mono'; font-weight: bold; position: absolute; top: 1; left: 0;"
+            placeholder="Write Here.."></textarea>
+            
+    </body>
+
+</html>
